@@ -1,0 +1,71 @@
+body{
+    background-color: rgba(187, 234, 255, 0.74);
+}
+
+.logo{
+    color: rgb(159, 225, 255);
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Navbar */
+.navbar{
+    background-color: rgb(175, 113, 204);
+    padding: 10px;
+}
+
+.my_nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.my_nav li{
+    display: inline-block;
+}
+
+.my_nav a{
+    color: rgb(159, 225, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+/* Extras */
+li a:hover{
+    color: rgba(187, 234, 255, 0.74);
+}
+
+li a:active{
+    color: rgba(219, 168, 168, 0.89);
+}
+
+/* Responsiveness Part of Nav */
+/* Vertical */
+@media (min-width: 769px) {
+    .my_nav{
+        text-align: center;
+    }
+    .my_nav li{
+        display: inline-block;
+    }
+}
+
+/* Horizontal */
+@media (max-width: 768px) {
+    .my_nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .my_nav li{
+        display: block;
+    }
+}
+/* Actually for that last code it could be anything because Ive forgotten which one is which */
