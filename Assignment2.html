@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assign_2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+        <h1>My Webpage</h1>
+    </div>
+    <div class="smallnav">
+        <li><a href="#sect1">Webpage Contents</a></li>
+        <li><a href="#sect2">Information Table</a></li>
+        <li><a href="#sect3">Contact Forms</a></li>
+    </div>
+    <div style="display: block;">
+        <img src="87d59a0dfcb01559e2311a7f5b326b39.jpg" alt="Pixel Forest" height="250px" width="450px" style="margin-left: 5px;">
+    </div>
+    <p style="margin: 5px; text-align: justify;">This is a sample paragraph that describes the content of this webpage. It explains the purpose of the page and provides some basic information about what users can expect to find. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, perspiciatis quo? Corporis dolorum autem quod!</p>
+    <br>
+    <a href="http://www.techyjaunt.com/" target="_blank"  style="margin: 5px;">Visit TechyJaunt</a>
+
+    <!-- Section 1 -->
+    <br>
+    <br>
+    <h3 id="sect1" style="margin: 5px;">Webpage Contents</h3>
+    <ul>
+        <li>Introduction</li>
+        <li>Table of Information</li>
+        <li>Contact Form</li>
+    </ul>
+
+    <!-- Section 2 -->
+    <h3 id="sect2" style="margin: 5px;">Information Table</h3>
+    <table  style="margin: 5px;">
+        <tr>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Quality</th>
+        </tr>
+        <tr>
+            <td>Pens</td>
+            <td>Blue Ink Pens</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Notebooks</td>
+            <td>Spiral-bound Notebooks</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Markers</td>
+            <td>Permanent Markers</td>
+            <td>2</td>
+        </tr>
+    </table>
+
+    <!-- Section 3 -->
+    <br>
+    <h3  style="margin: 5px;">Contact Form</h3>
+    <form action="/action_page.php"  style="margin: 5px;">
+        Name:
+        <input type="text" name="fullname" id="name" style="display: inline-block;">
+        <br>
+        <br>
+        Email:
+        <input type="email" name="email" id="address" style="display: inline-block;">
+        <br>
+        <br>
+        Password:
+        <input type="password" name="pword" id="pword" style="display: inline-block;">
+        <br>
+        <br>
+        <div class="gender">
+            Gender:
+            <input type="radio" name="Gender" id="gender">
+            <label for="gender">Male</label>
+            <input type="radio" name="Gender" id="gender">
+            <label for="gender">Female</label>
+        </div>
+        <br>
+        <br>
+        <div style="display: block;">
+            Subscribe:
+            <input type="checkbox" id="sub" name="subscribe" value="Sub">
+            <label for="sub">Yes, I have a subscription</label><br>
+        </div>
+        <br>
+        Number of Items:
+        <input type="number" name="numbers" id="Numbers">
+        <br>
+        <br>
+        Date:
+        <input type="date" name="ddmmyyyy" id="date" style="display: inline-block">
+        <br>
+        <br>
+        Message:
+        <textarea name="message" rows="5" cols="30" style="display: block;"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

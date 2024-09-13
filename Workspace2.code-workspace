@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../Loruki Website"
+		},
+		{
+			"path": "../Techyjaunt Class"
+		},
+		{
+			"path": "../Portfolio Trials"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Techyjaunt Class"
+	}
+}

@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(57, 129, 57);
+    color: white;
+}
+
+.smallnav{
+    width: 30px;
+    height: 20%;
+    display: inline;
+
+    align-items: center;
+}
+
+.smallnav li{
+    list-style-type: none;
+    margin: 0;
+    
+}
+
+.smallnav a{
+    display: block;
+    color: rgb(57, 129, 57);
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+table, th, td{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+.gender{
+    display: inline;
+}
